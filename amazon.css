@@ -50,6 +50,9 @@ li a:hover {
 .home:hover {
   background-color: #001f33;
 }
+p {
+  opacity: 0;
+}
 
 
 /*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
@@ -60,7 +63,7 @@ button {
   border-radius: 20px;
   margin-top: 100px;
   margin-left: 100px;
-  -webkit-transition: 0.5s;
+  -webkit-transition: 0.3s;
   background-color: white;
 }
 
