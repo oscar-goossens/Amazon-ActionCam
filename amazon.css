@@ -52,30 +52,6 @@ li a:hover {
 }
 
 
-/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
-/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
-/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
-@media only screen and (max-width: 519px) {
-  /* For mobile phones: */
-  .banniere {
-    display: none;
-  }
-  li a {
-    width: 100%;
-    font-size: 25px;
-    padding: 10px;
-  }
-}
-@media (min-width: 520px) and (max-width: 800px) {
-  /* For tablet: */
-  li a {
-    width: 100%;
-    font-size: 25px;
-    padding: 15px;
-  }
-}
-
-
 /*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
 /*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
 /*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
@@ -83,7 +59,7 @@ button {
   border: 10px solid #0099cc; 
   border-radius: 20px;
   margin-top: 100px;
-  margin-left: 110px;
+  margin-left: 100px;
   -webkit-transition: 0.5s;
   background-color: white;
 }
@@ -91,4 +67,66 @@ button {
 button:hover {
   border-radius: 12px;
   border: 10px solid #33ccff; 
+}
+
+
+/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
+/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
+/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
+@media only screen and (max-width: 373px) {
+  /* iPhone SE */
+  .banniere {
+    width: 100%;
+  }
+  li a {
+    width: 100%;
+    font-size: 20px;
+    padding: 7px;
+  }
+    button {
+    margin-top: 7px;
+    margin-left: -2px;
+  }
+}
+@media (min-width: 374px) and (max-width: 519px) {
+  /* iPhone 6 */
+  .banniere {
+    width: 100%;
+  }
+  li a {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+  }
+    button {
+    margin-top: 10px;
+    margin-left: 17px;
+  }
+}
+@media (min-width: 520px) and (max-width: 569px) {
+  /* SE -> */
+  li a {
+    width: 100%;
+    font-size: 20px;
+    padding: 3px;
+  }
+  button {
+    margin-top: 10px;
+    margin-left: 22px;
+  }
+}
+@media (min-width: 570px) and (max-width: 900px) {
+  /* 6 -> */
+  .banniere {
+    width: 100%;
+  }
+  li a {
+    width: 100%;
+    font-size: 20px;
+    padding: 7px;
+  }
+    button {
+    margin-top: 20px;
+    margin-left: 45px;
+  }
 }
