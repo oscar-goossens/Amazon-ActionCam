@@ -70,9 +70,7 @@ button:hover {
 }
 
 
-/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
-/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
-/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
+/*Pour telephones*/
 @media only screen and (max-width: 373px) {
   /* iPhone SE */
   .banniere {
@@ -100,7 +98,7 @@ button:hover {
   }
     button {
     margin-top: 10px;
-    margin-left: 17px;
+    margin-left: 15px;
   }
 }
 @media (min-width: 520px) and (max-width: 569px) {
