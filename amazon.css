@@ -1,5 +1,5 @@
 body {
-  background-image: url("fond.png");
+  background-image: linear-gradient(to top left, #0052cc, #33d6ff);
 }
 
 * {

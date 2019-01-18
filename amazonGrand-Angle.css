@@ -1,5 +1,5 @@
 body {
-  background-image: url("fond.png");
+  background-image: linear-gradient(to top left, #0052cc, #33d6ff);
 }
 
 * {
@@ -19,6 +19,7 @@ a {
   text-align: center;
   font-family: 'Luckiest Guy', cursive;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .banniere {
