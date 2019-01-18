@@ -80,16 +80,14 @@ li a:hover {
 /*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
 /*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
 button {
-  border: double 4px transparent;
-  border-radius: 7px;
-  background-image: linear-gradient(white, white), radial-gradient(circle at top right, #0099cc,#00ccff);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
+  border: 10px solid #0099cc; 
+  border-radius: 20px;
   margin-top: 100px;
   margin-left: 110px;
-  -webkit-transition: 0.1s;
+  -webkit-transition: 0.5s;
 }
 
 button:hover {
   border-radius: 12px;
+  border: 10px solid #33ccff; 
 }
