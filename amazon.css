@@ -64,7 +64,7 @@ li a:hover {
   }
 }
 @media (min-width: 520px) and (max-width: 800px) {
-  /* For mobile phones: */
+  /* For tablet: */
   li a {
     width: 100%;
     font-size: 25px;
