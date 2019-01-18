@@ -61,8 +61,8 @@ li a:hover {
     display: none;
   }
   li a {
-    font-size: 10px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 15px;
   }
   ul {
     float: top;
@@ -78,11 +78,12 @@ li a:hover {
   .banniere {
     display: none;
   }
-  a {
-    font-size: 20px;
-  }
   li {
     float: none;
     display: block;
+  }
+  li a {
+    font-size: 20px;
+    padding: 20px;
   }
 }
