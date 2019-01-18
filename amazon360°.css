@@ -9,7 +9,7 @@ body {
 li a {
   color: white;
   float: left;
-  width: 33.33%;
+  width: 50%;
   padding: 30px;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -51,15 +51,37 @@ li a:hover {
   background-color: #001f33;
 }
 
-
-@media only screen and (max-width: 679px) {
+@media only screen and (max-width: 519px) {
   /* For mobile phones: */
   ul {
     width: 100%;
   }
+  .banniere {
+    display: none;
+  }
+  li a {
+    font-size: 20px;
+    width: 50%;
+  }
+  ul {
+    float: top;
+    display: block;
+  }
 }
 
-@media (min-width: 680px) and (max-width: 959px) {
-  /* For tablets: */
-
+@media (min-width: 520px) and (max-width: 659px) {
+  /* For mobile phones: */
+  ul {
+    width: 100%;
+  }
+  .banniere {
+    display: none;
+  }
+  a {
+    font-size: 20px;
+  }
+  li {
+    float: none;
+    display: block;
+  }
 }
