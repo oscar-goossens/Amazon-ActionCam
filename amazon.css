@@ -52,6 +52,9 @@ li a:hover {
 }
 
 
+/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
+/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
+/*Pour Mobile et tablette*//*Pour Mobile et tablette*//*Pour Mobile et tablette*/
 @media only screen and (max-width: 519px) {
   /* For mobile phones: */
   .banniere {
@@ -70,4 +73,14 @@ li a:hover {
     font-size: 25px;
     padding: 15px;
   }
+}
+
+
+/*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
+/*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
+/*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
+iframe {
+  margin-top: 100px;
+  margin-left: 70px;
+  border-radius: 10px; 
 }
