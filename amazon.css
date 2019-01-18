@@ -62,7 +62,7 @@ li a:hover {
   }
   li a {
     font-size: 15px;
-    padding: 15px;
+    padding: 20px;
   }
   ul {
     float: top;
@@ -83,7 +83,7 @@ li a:hover {
     display: block;
   }
   li a {
-    font-size: 20px;
-    padding: 20px;
+    font-size: 18px;
+    padding: 23px;
   }
 }
