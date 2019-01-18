@@ -54,36 +54,20 @@ li a:hover {
 
 @media only screen and (max-width: 519px) {
   /* For mobile phones: */
-  ul {
-    width: 100%;
-  }
   .banniere {
     display: none;
   }
   li a {
-    font-size: 13px;
-    padding: 20px;
-  }
-  ul {
-    float: top;
-    display: block;
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
   }
 }
-
-@media (min-width: 520px) and (max-width: 659px) {
+@media (min-width: 520px) and (max-width: 800px) {
   /* For mobile phones: */
-  ul {
-    width: 100%;
-  }
-  .banniere {
-    display: none;
-  }
-  li {
-    float: none;
-    display: block;
-  }
   li a {
-    font-size: 15px;
-    padding: 22px;
+    width: 100%;
+    font-size: 25px;
+    padding: 15px;
   }
 }
