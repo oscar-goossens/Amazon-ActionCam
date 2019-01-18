@@ -1,0 +1,65 @@
+body {
+  background-image: url("fond.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li a {
+  color: white;
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+a {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+}
+
+.banniere {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #005c99;
+  position: -webkit-sticky;
+  position: sticky;
+  border-radius: 0px 0px 4px 4px;
+  top: 0;
+}
+
+li a:hover {
+  background-color: #003d66;
+  letter-spacing: 0.5rem;
+}
+
+.home {
+  background-color: #002e4d;
+}
+
+.home:hover {
+  background-color: #001f33;
+}
+
+
+@media only screen and (max-width: 679px) {
+  /* For mobile phones: */
+  ul {
+    width: 100%;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 959px) {
+  /* For tablets: */
+
+}
