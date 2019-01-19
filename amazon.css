@@ -50,8 +50,15 @@ li a:hover {
 .home:hover {
   background-color: #001f33;
 }
+
 p {
-  opacity: 0;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  background-image: linear-gradient(to bottom right, #00ace6, #0073e6);
+  padding: 50px 50px;
+  text-align: center;
 }
 
 
