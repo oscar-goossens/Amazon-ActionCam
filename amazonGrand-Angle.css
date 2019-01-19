@@ -98,9 +98,13 @@ p {
     font-size: 20px;
     padding: 7px;
   }
-    button {
+  button {
     margin-top: 7px;
-    margin-left: -2px;
+    margin-left: -6px;
+    border: 6px solid #0099cc; 
+  }
+  button:hover {
+    border: 6px solid #0099cc; 
   }
   ul {
     position: relative;
@@ -145,7 +149,7 @@ p {
   }
   button {
     margin-top: 10px;
-    margin-left: 22px;
+    margin-left: 15px;
   }
   ul {
     position: relative;
