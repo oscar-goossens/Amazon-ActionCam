@@ -52,21 +52,6 @@ li a:hover {
   background-color: #001f33;
 }
 
-p {
-  border-radius: 10px;
-  color: black;
-  font-size: 23px;
-  font-family: 'Comfortaa', cursive;
-  background-image: linear-gradient(to bottom right, #00ace6, #0073e6);
-  padding: 50px 50px;
-  text-align: center;
-}
-
-.email {
-  font-family: 'Comfortaa', cursive;
-  font-size: 23px;
-}
-
 
 /*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
 /*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
@@ -104,15 +89,6 @@ button:hover {
   ul {
     position: relative;
   }
-  p {
-    font-size: 15px;
-  }
-  .email {
-    font-size: 15px;
-    position: relative;
-    left: -35px;
-    font-family: 'Comfortaa', cursive;
-  }
 }
 @media (min-width: 374px) and (max-width: 519px) {
   /* iPhone 6 */
@@ -130,12 +106,6 @@ button:hover {
   }
   ul {
     position: relative;
-  }
-  .email {
-    font-size: 19px;
-    position: relative;
-    left: -45px;
-    font-family: 'Comfortaa', cursive;
   }
 }
 @media (min-width: 520px) and (max-width: 569px) {
