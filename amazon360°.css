@@ -100,11 +100,11 @@ p {
   }
   button {
     margin-top: 7px;
-    margin-left: -12px;
-    border: 5px solid #0099cc; 
+    margin-left: -8px;
+    border: 7px solid #0099cc; 
   }
   button:hover {
-    border: 5px solid #0099cc; 
+    border: 7px solid #0099cc; 
   }
   ul {
     position: relative;
