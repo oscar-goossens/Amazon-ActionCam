@@ -102,7 +102,7 @@ button:hover {
   }
   button {
     margin-top: 10px;
-    margin-left: 18px;
+    margin-left: 10px;
   }
   ul {
     position: relative;
@@ -142,7 +142,7 @@ button:hover {
   }
 }
 @media (min-width: 1000px) and (max-width: 1100px) {
-  /* 6 -> */
+  /* iPad */
   .banniere {
     width: 100%;
   }

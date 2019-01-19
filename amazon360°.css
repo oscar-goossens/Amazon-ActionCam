@@ -86,6 +86,9 @@ button:hover {
     margin-top: 7px;
     margin-left: -2px;
   }
+  ul {
+    position: relative;
+  }
 }
 @media (min-width: 374px) and (max-width: 519px) {
   /* iPhone 6 */
@@ -97,9 +100,12 @@ button:hover {
     font-size: 25px;
     padding: 10px;
   }
-    button {
+  button {
     margin-top: 10px;
     margin-left: 10px;
+  }
+  ul {
+    position: relative;
   }
 }
 @media (min-width: 520px) and (max-width: 569px) {
@@ -113,6 +119,9 @@ button:hover {
     margin-top: 10px;
     margin-left: 22px;
   }
+  ul {
+    position: relative;
+  }
 }
 @media (min-width: 570px) and (max-width: 900px) {
   /* 6 -> */
@@ -124,7 +133,20 @@ button:hover {
     font-size: 20px;
     padding: 7px;
   }
-    button {
+  button {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  ul {
+    position: relative;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px) {
+  /* iPad */
+  .banniere {
+    width: 100%;
+  }
+  button {
     margin-top: 20px;
     margin-left: 40px;
   }
