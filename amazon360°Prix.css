@@ -104,6 +104,15 @@ button:hover {
   ul {
     position: relative;
   }
+  p {
+    font-size: 15px;
+  }
+  .email {
+    font-size: 15px;
+    position: relative;
+    left: -35px;
+    font-family: 'Comfortaa', cursive;
+  }
 }
 @media (min-width: 374px) and (max-width: 519px) {
   /* iPhone 6 */
@@ -117,7 +126,7 @@ button:hover {
   }
   button {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 18px;
   }
   ul {
     position: relative;
@@ -160,5 +169,15 @@ button:hover {
   }
   ul {
     position: relative;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px) {
+  /* 6 -> */
+  .banniere {
+    width: 100%;
+  }
+  button {
+    margin-top: 20px;
+    margin-left: 40px;
   }
 }
