@@ -98,9 +98,13 @@ p {
     font-size: 20px;
     padding: 7px;
   }
-    button {
+  button {
     margin-top: 7px;
     margin-left: -12px;
+    border: 5px solid #0099cc; 
+  }
+  button:hover {
+    border: 5px solid #0099cc; 
   }
   ul {
     position: relative;
