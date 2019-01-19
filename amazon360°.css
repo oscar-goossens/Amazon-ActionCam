@@ -51,38 +51,90 @@ li a:hover {
 .home:hover {
   background-color: #001f33;
 }
-
-@media only screen and (max-width: 519px) {
-  /* For mobile phones: */
-  ul {
-    width: 100%;
-  }
-  .banniere {
-    display: none;
-  }
-  li a {
-    font-size: 20px;
-    width: 50%;
-  }
-  ul {
-    float: top;
-    display: block;
-  }
+p {
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  background-image: linear-gradient(to bottom right, #00ace6, #0073e6);
+  padding: 50px 50px;
+  text-align: center;
 }
 
-@media (min-width: 520px) and (max-width: 659px) {
-  /* For mobile phones: */
-  ul {
+
+/*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
+/*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
+/*liens amazon*//*liens amazon*//*liens amazon*//*liens amazon*/
+button {
+  border: 10px solid #0099cc; 
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 100px;
+  -webkit-transition: 0.3s;
+  background-color: white;
+}
+
+button:hover {
+  border-radius: 12px;
+  border: 10px solid #33ccff; 
+}
+
+
+/*Pour telephones*/
+@media only screen and (max-width: 373px) {
+  /* iPhone SE */
+  .banniere {
     width: 100%;
   }
-  .banniere {
-    display: none;
-  }
-  a {
+  li a {
+    width: 100%;
     font-size: 20px;
+    padding: 7px;
   }
-  li {
-    float: none;
-    display: block;
+    button {
+    margin-top: 7px;
+    margin-left: -2px;
+  }
+}
+@media (min-width: 374px) and (max-width: 519px) {
+  /* iPhone 6 */
+  .banniere {
+    width: 100%;
+  }
+  li a {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+  }
+    button {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 520px) and (max-width: 569px) {
+  /* SE -> */
+  li a {
+    width: 100%;
+    font-size: 20px;
+    padding: 3px;
+  }
+  button {
+    margin-top: 10px;
+    margin-left: 22px;
+  }
+}
+@media (min-width: 570px) and (max-width: 900px) {
+  /* 6 -> */
+  .banniere {
+    width: 100%;
+  }
+  li a {
+    width: 100%;
+    font-size: 20px;
+    padding: 7px;
+  }
+    button {
+    margin-top: 20px;
+    margin-left: 40px;
   }
 }
