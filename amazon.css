@@ -70,6 +70,22 @@ button:hover {
 }
 
 
+/*texte email*//*texte email*//*texte email*//*texte email*/
+/*texte email*//*texte email*//*texte email*//*texte email*/
+/*texte email*//*texte email*//*texte email*//*texte email*/
+p {
+  position: relative;
+  text-align: center;
+  color: black;
+  background-image: linear-gradient(to top left, #3333cc, #00ace6);
+  padding: 150px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  line-height: 50px;
+}
+
+
 /*Pour telephones*/
 @media only screen and (max-width: 373px) {
   /* iPhone SE */
@@ -87,6 +103,12 @@ button:hover {
   }
   ul {
     position: relative;
+  }
+  p {
+    line-height: 15px;
+    font-size: 10px;
+    padding: 20px;
+    border-radius: 3px;
   }
 }
 @media (min-width: 374px) and (max-width: 519px) {
@@ -106,6 +128,12 @@ button:hover {
   ul {
     position: relative;
   }
+  p {
+    line-height: 30px;
+    font-size: 15px;
+    padding: 30px;
+    border-radius: 5px;
+  }
 }
 @media (min-width: 520px) and (max-width: 569px) {
   /* SE -> */
@@ -120,6 +148,12 @@ button:hover {
   }
   ul {
     position: relative;
+  }
+  p {
+    line-height: 20px;
+    font-size: 15px;
+    padding: 25px;
+    border-radius: 5px;
   }
 }
 @media (min-width: 570px) and (max-width: 900px) {
@@ -138,6 +172,12 @@ button:hover {
   }
   ul {
     position: relative;
+  }  
+  p {
+    line-height: 30px;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 5px;
   }
 }
 @media (min-width: 1000px) and (max-width: 1100px) {
