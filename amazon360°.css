@@ -161,7 +161,7 @@ p {
     border-radius: 5px;
   }
 }
-@media (min-width: 570px) and (max-width: 900px) {
+@media (min-width: 570px) and (max-width: 760px) {
   /* 6 -> */
   .banniere {
     width: 100%;
