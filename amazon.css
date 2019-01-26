@@ -1,5 +1,13 @@
 body {
-  background-image: linear-gradient(to top left, #0052cc, #33d6ff);
+  -webkit-animation-name: couleur;
+  -webkit-animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes couleur {
+  0% {background-color: #33d6ff;}
+  50% {background-color: #1a75ff;}
+  100% {background-color: #33d6ff;}
 }
 
 * {
