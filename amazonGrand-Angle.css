@@ -1,14 +1,7 @@
 body {
-  -webkit-animation-name: couleur;
-  -webkit-animation-duration: 60s;
-  -webkit-animation-iteration-count: infinite;
+  background-image: linear-gradient(to top left, #3333cc, #00ace6);
 }
 
-@-webkit-keyframes couleur {
-  0% {background-color: #33d6ff;}
-  50% {background-color: #1a75ff;}
-  100% {background-color: #33d6ff;}
-}
 * {
   box-sizing: border-box;
 }
@@ -91,6 +84,20 @@ p {
   font-size: 30px;
   font-family: 'Comfortaa', cursive;
   line-height: 50px;
+}
+
+.mail {
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  -webkit-transition: 0.3s;
+}
+
+.mail:hover {
+  color: white;
+  border-bottom: 3px solid white;
 }
 
 
