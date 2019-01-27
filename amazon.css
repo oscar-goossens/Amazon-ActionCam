@@ -81,13 +81,13 @@ p {
   padding: 150px;
   border-radius: 10px;
   font-size: 30px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Fira Mono', monospace;  
   line-height: 50px;
 }
 
 .mail {
   font-size: 30px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Fira Mono', monospace;
   color: black;
   text-decoration: none;
   border-bottom: 2px solid black;
@@ -128,6 +128,9 @@ p {
     padding: 20px;
     border-radius: 3px;
   }
+  .mail {
+    font-size: 10px;
+  }
 }
 @media (min-width: 374px) and (max-width: 519px) {
   /* iPhone 6 */
@@ -152,6 +155,9 @@ p {
     padding: 30px;
     border-radius: 5px;
   }
+  .mail {
+    font-size: 15px;
+  }
 }
 @media (min-width: 520px) and (max-width: 569px) {
   /* SE -> */
@@ -172,6 +178,9 @@ p {
     font-size: 15px;
     padding: 25px;
     border-radius: 5px;
+  }
+  .mail {
+    font-size: 15px;
   }
 }
 @media (min-width: 570px) and (max-width: 900px) {
@@ -196,6 +205,9 @@ p {
     font-size: 20px;
     padding: 30px;
     border-radius: 5px;
+  }
+  .mail {
+    font-size: 20px;
   }
 }
 @media (min-width: 1000px) and (max-width: 1100px) {
