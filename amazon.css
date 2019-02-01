@@ -11,8 +11,7 @@
 
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(to bottom right, #3333cc, #00ace6);
-  border-radius: 10px;
-  -webkit-transition: 0.3s;
+  border-radius: 6.5px;
 }
 
 
@@ -82,12 +81,12 @@ button {
   margin-top: 100px;
   margin-left: 100px;
   -webkit-transition: 0.3s;
-  background-color: white;
 }
 
 button:hover {
   border-radius: 12px;
-  border: 10px solid #33ccff; 
+  border: 10px solid #33ccff;
+  filter: blur(1px); 
 }
 
 
