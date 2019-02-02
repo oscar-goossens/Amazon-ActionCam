@@ -18,6 +18,10 @@
 /*Mise en page*//*Mise en page*//*Mise en page*//*Mise en page*//*Mise en page*/
 /*Mise en page*//*Mise en page*//*Mise en page*//*Mise en page*//*Mise en page*/
 /*Mise en page*//*Mise en page*//*Mise en page*//*Mise en page*//*Mise en page*/
+h1, h2 {
+  font-size: 0.001px;
+}
+
 body {
   background-image: linear-gradient(to top left, #3333cc, #00ace6);
 }
