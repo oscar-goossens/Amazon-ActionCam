@@ -82,6 +82,7 @@ button {
   margin-top: 100px;
   margin-left: 100px;
   -webkit-transition: 0.3s;
+  background-color: white;
 }
 
 button:hover {
